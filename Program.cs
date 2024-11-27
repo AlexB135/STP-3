@@ -1,29 +1,12 @@
 ﻿using System;
 
- 
-
-class Program
-
+namespace MyTeamCityProject
 {
-
-    static void Main(string[] args)
-
+    class Program
     {
-
-        Console.WriteLine("Hello, World!");
-
-        GreetUser("User");
-
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, TeamCity!");
+        }
     }
-
- 
-
-    static void GreetUser(string name)
-
-    {
-
-        Console.WriteLine($"Hello, {name}!");
-
-    }
-
 }
